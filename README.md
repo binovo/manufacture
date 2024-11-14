@@ -32,10 +32,11 @@ addon | version | maintainers | summary
 [mrp_bom_tag](mrp_bom_tag/) | 16.0.1.0.0 |  | Add tags on your BoM to find it easily
 [mrp_bom_tracking](mrp_bom_tracking/) | 16.0.1.0.0 |  | Logs any change to a BoM in the chatter
 [mrp_bom_version](mrp_bom_version/) | 16.0.1.0.0 |  | BoM versioning
+[mrp_bom_widget_section_and_note_one2many](mrp_bom_widget_section_and_note_one2many/) | 16.0.1.0.0 | [![quentinDupont](https://github.com/quentinDupont.png?size=30px)](https://github.com/quentinDupont) | Add section and note in Bills of Materials
 [mrp_default_workorder_time](mrp_default_workorder_time/) | 16.0.1.0.0 | [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | Adds an MRP default workorder time
 [mrp_lot_number_propagation](mrp_lot_number_propagation/) | 16.0.1.0.0 | [![sebalix](https://github.com/sebalix.png?size=30px)](https://github.com/sebalix) | Propagate a serial number from a component to a finished product
 [mrp_lot_production_date](mrp_lot_production_date/) | 16.0.1.0.0 |  | MRP Lot Production Date
-[mrp_multi_level](mrp_multi_level/) | 16.0.1.5.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | Adds an MRP Scheduler
+[mrp_multi_level](mrp_multi_level/) | 16.0.1.5.3 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | Adds an MRP Scheduler
 [mrp_multi_level_estimate](mrp_multi_level_estimate/) | 16.0.1.1.2 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Allows to consider demand estimates using MRP multi level.
 [mrp_packaging_default](mrp_packaging_default/) | 16.0.1.0.1 | [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Include packaging info in MRP by default
 [mrp_planned_order_matrix](mrp_planned_order_matrix/) | 16.0.1.0.0 |  | Allows to create fixed planned orders on a grid view.
@@ -47,9 +48,10 @@ addon | version | maintainers | summary
 [mrp_subcontracting_inhibit](mrp_subcontracting_inhibit/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Inhibit subcontracting flow on demand
 [mrp_subcontracting_partner_management](mrp_subcontracting_partner_management/) | 16.0.1.1.0 |  | Subcontracting Partner Management
 [mrp_subcontracting_purchase_link](mrp_subcontracting_purchase_link/) | 16.0.1.0.0 |  | Link Purchase Order Line to Subcontract Productions
-[mrp_subcontracting_skip_no_negative](mrp_subcontracting_skip_no_negative/) | 16.0.1.0.1 |  | MRP Subcontracting Skip No Negative
+[mrp_subcontracting_skip_no_negative](mrp_subcontracting_skip_no_negative/) | 16.0.1.0.2 |  | MRP Subcontracting Skip No Negative
 [mrp_tag](mrp_tag/) | 16.0.1.1.0 |  | Allows to add multiple tags to Manufacturing Orders
 [mrp_unbuild_move_link](mrp_unbuild_move_link/) | 16.0.1.0.1 |  | Link the stock moves of manufacturing orders to the respective unbuild orders
+[mrp_unbuild_subcontracting](mrp_unbuild_subcontracting/) | 16.0.1.0.0 |  | Unbuild orders are created automatically when is returned a product subcontracted
 [mrp_unbuild_valuation_layer_link](mrp_unbuild_valuation_layer_link/) | 16.0.1.0.1 |  | Unbuild orders display the connected valuation layers
 [mrp_warehouse_calendar](mrp_warehouse_calendar/) | 16.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Considers the warehouse calendars in manufacturing
 [mrp_workcenter_cost](mrp_workcenter_cost/) | 16.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) [![sebalix](https://github.com/sebalix.png?size=30px)](https://github.com/sebalix) | Controls how to compute the workcenter cost (effective vs theoretical)
