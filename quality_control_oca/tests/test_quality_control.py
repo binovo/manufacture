@@ -8,10 +8,11 @@
 from odoo import exceptions
 
 from odoo.addons.base.tests.common import BaseCommon
-
 from ..models.qc_trigger_line import _filter_trigger_lines
+from odoo.tests.common import tagged
 
 
+@tagged("post_install", "-at_install")
 class TestQualityControlOcaBase(BaseCommon):
     @classmethod
     def setUpClass(cls):
