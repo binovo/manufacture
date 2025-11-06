@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_move_line_mrp_info](account_move_line_mrp_info/) | 16.0.1.1.0 |  | Account Move Line Mrp Info
+[mrp_account_analytic](mrp_account_analytic/) | 16.0.1.0.0 | <a href='https://github.com/dreispt'><img src='https://github.com/dreispt.png' width='32' height='32' style='border-radius:50%;' alt='dreispt'/></a> | Consuming raw materials and operations generated Analytic Items
 [mrp_attachment_mgmt](mrp_attachment_mgmt/) | 16.0.1.1.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Mrp Attachment Mgmt
 [mrp_bom_component_menu](mrp_bom_component_menu/) | 16.0.1.0.0 |  | MRP BOM Component Menu
 [mrp_bom_hierarchy](mrp_bom_hierarchy/) | 16.0.1.2.1 |  | Make it easy to navigate through BoM hierarchy.
@@ -30,6 +31,8 @@ addon | version | maintainers | summary
 [mrp_bom_line_net_qty](mrp_bom_line_net_qty/) | 16.0.1.0.0 | <a href='https://github.com/quentinDupont'><img src='https://github.com/quentinDupont.png' width='32' height='32' style='border-radius:50%;' alt='quentinDupont'/></a> | MRP BoM Line Net and Gross Quantity
 [mrp_bom_location](mrp_bom_location/) | 16.0.1.1.1 |  | Adds location field to Bill of Materials and its components.
 [mrp_bom_note](mrp_bom_note/) | 16.0.1.1.0 |  | Notes in Bill of Materials
+[mrp_bom_order_by_product_name](mrp_bom_order_by_product_name/) | 16.0.1.0.0 |  | Order BoM with their Product name
+[mrp_bom_priority](mrp_bom_priority/) | 16.0.1.0.0 | <a href='https://github.com/quentinDupont'><img src='https://github.com/quentinDupont.png' width='32' height='32' style='border-radius:50%;' alt='quentinDupont'/></a> | Adds priority field to BoMs
 [mrp_bom_produce_delay](mrp_bom_produce_delay/) | 16.0.1.0.0 |  | Add Product Delay in BoM, linked to Product Produce Delay.
 [mrp_bom_product_price_margin](mrp_bom_product_price_margin/) | 16.0.1.1.0 |  | Handle Product Standard, Sale Price and Margin with its BoM cost
 [mrp_bom_select_product_variant](mrp_bom_select_product_variant/) | 16.0.1.0.0 |  | Favors Product variant selection for BOM creation.
@@ -52,8 +55,9 @@ addon | version | maintainers | summary
 [mrp_production_grouped_by_product](mrp_production_grouped_by_product/) | 16.0.1.0.0 |  | Production Grouped By Product
 [mrp_production_move_line_auto_fill](mrp_production_move_line_auto_fill/) | 16.0.1.0.0 |  | Mrp Production Move Line Auto Fill
 [mrp_production_note](mrp_production_note/) | 16.0.1.0.0 |  | Notes in production orders
-[mrp_production_quant_manual_assign](mrp_production_quant_manual_assign/) | 16.0.1.0.0 |  | Production - Manual Quant Assignment
+[mrp_production_quant_manual_assign](mrp_production_quant_manual_assign/) | 16.0.1.1.0 |  | Production - Manual Quant Assignment
 [mrp_production_serial_matrix](mrp_production_serial_matrix/) | 16.0.1.0.0 |  | MRP Production Serial Matrix
+[mrp_production_unique_lot](mrp_production_unique_lot/) | 16.0.1.0.0 |  | MRP Production Unique Lot
 [mrp_restrict_lot](mrp_restrict_lot/) | 16.0.1.0.3 | <a href='https://github.com/florian-dacosta'><img src='https://github.com/florian-dacosta.png' width='32' height='32' style='border-radius:50%;' alt='florian-dacosta'/></a> | MRP Restrict Lot
 [mrp_sale_info](mrp_sale_info/) | 16.0.1.1.0 |  | Adds sale information to Manufacturing models
 [mrp_stock_owner_restriction](mrp_stock_owner_restriction/) | 16.0.1.0.0 |  | MRP Stock Owner Restriction
