@@ -24,9 +24,10 @@
                                 name="trigger"
                                 options="{'no_create': True, 'no_edit': True, 'no_open': True}"
                             />
-                            <field name="test"/>
-                            <field name="user"/>
-                            <field name="partners" widget="many2many_tags"/>
+                            <field name="test" />
+                            <field name="user" />
+                            <field name="timing" />
+                            <field name="partners" widget="many2many_tags" />
                         </tree>
                     </field>
                 </group>
