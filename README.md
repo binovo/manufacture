@@ -1,4 +1,7 @@
 
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
+# manufacture
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/manufacture&target_branch=16.0)
 [![Pre-commit Status](https://github.com/OCA/manufacture/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/OCA/manufacture/actions/workflows/pre-commit.yml?query=branch%3A16.0)
 [![Build Status](https://github.com/OCA/manufacture/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/OCA/manufacture/actions/workflows/test.yml?query=branch%3A16.0)
@@ -6,8 +9,6 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/manufacture-16-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/manufacture-16-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
-# manufacture
 
 TODO: add repo description.
 
@@ -34,6 +35,7 @@ addon | version | maintainers | summary
 [mrp_bom_order_by_product_name](mrp_bom_order_by_product_name/) | 16.0.1.0.0 |  | Order BoM with their Product name
 [mrp_bom_priority](mrp_bom_priority/) | 16.0.1.0.0 | <a href='https://github.com/quentinDupont'><img src='https://github.com/quentinDupont.png' width='32' height='32' style='border-radius:50%;' alt='quentinDupont'/></a> | Adds priority field to BoMs
 [mrp_bom_produce_delay](mrp_bom_produce_delay/) | 16.0.1.0.0 |  | Add Product Delay in BoM, linked to Product Produce Delay.
+[mrp_bom_produce_delay_in_hour](mrp_bom_produce_delay_in_hour/) | 16.0.1.0.0 | <a href='https://github.com/quentinDupont'><img src='https://github.com/quentinDupont.png' width='32' height='32' style='border-radius:50%;' alt='quentinDupont'/></a> | Glue module for mrp_bom_produce_delay and mrp_product_produce_delay_in_hour
 [mrp_bom_product_price_margin](mrp_bom_product_price_margin/) | 16.0.1.1.0 |  | Handle Product Standard, Sale Price and Margin with its BoM cost
 [mrp_bom_select_product_variant](mrp_bom_select_product_variant/) | 16.0.1.0.0 |  | Favors Product variant selection for BOM creation.
 [mrp_bom_tag](mrp_bom_tag/) | 16.0.1.2.0 | <a href='https://github.com/quentinDupont'><img src='https://github.com/quentinDupont.png' width='32' height='32' style='border-radius:50%;' alt='quentinDupont'/></a> | Add tags on your BoM to find it easily
@@ -44,7 +46,7 @@ addon | version | maintainers | summary
 [mrp_lot_number_propagation](mrp_lot_number_propagation/) | 16.0.1.0.1 | <a href='https://github.com/sebalix'><img src='https://github.com/sebalix.png' width='32' height='32' style='border-radius:50%;' alt='sebalix'/></a> | Propagate a serial number from a component to a finished product
 [mrp_lot_production_date](mrp_lot_production_date/) | 16.0.1.0.0 |  | MRP Lot Production Date
 [mrp_mto_owner](mrp_mto_owner/) | 16.0.1.0.0 |  | Mrp MTO Owner
-[mrp_multi_level](mrp_multi_level/) | 16.0.1.7.0 | <a href='https://github.com/JordiBForgeFlow'><img src='https://github.com/JordiBForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiBForgeFlow'/></a> <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> <a href='https://github.com/ChrisOForgeFlow'><img src='https://github.com/ChrisOForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ChrisOForgeFlow'/></a> | Adds an MRP Scheduler
+[mrp_multi_level](mrp_multi_level/) | 16.0.1.7.1 | <a href='https://github.com/JordiBForgeFlow'><img src='https://github.com/JordiBForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiBForgeFlow'/></a> <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> <a href='https://github.com/ChrisOForgeFlow'><img src='https://github.com/ChrisOForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ChrisOForgeFlow'/></a> | Adds an MRP Scheduler
 [mrp_multi_level_estimate](mrp_multi_level_estimate/) | 16.0.1.2.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Allows to consider demand estimates using MRP multi level.
 [mrp_packaging_default](mrp_packaging_default/) | 16.0.1.0.2 | <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> | Include packaging info in MRP by default
 [mrp_planned_order_matrix](mrp_planned_order_matrix/) | 16.0.1.0.0 |  | Allows to create fixed planned orders on a grid view.
@@ -71,7 +73,7 @@ addon | version | maintainers | summary
 [mrp_tag](mrp_tag/) | 16.0.1.1.0 |  | Allows to add multiple tags to Manufacturing Orders
 [mrp_unbuild_move_link](mrp_unbuild_move_link/) | 16.0.1.0.1 |  | Link the stock moves of manufacturing orders to the respective unbuild orders
 [mrp_unbuild_restore_origin](mrp_unbuild_restore_origin/) | 16.0.1.1.0 |  | Mrp Unbuild Restore Origin
-[mrp_unbuild_subcontracting](mrp_unbuild_subcontracting/) | 16.0.1.0.0 |  | Unbuild orders are created automatically when is returned a product subcontracted
+[mrp_unbuild_subcontracting](mrp_unbuild_subcontracting/) | 16.0.1.0.1 |  | Unbuild orders are created automatically when is returned a product subcontracted
 [mrp_unbuild_valuation_layer_link](mrp_unbuild_valuation_layer_link/) | 16.0.1.0.1 |  | Unbuild orders display the connected valuation layers
 [mrp_warehouse_calendar](mrp_warehouse_calendar/) | 16.0.1.0.0 | <a href='https://github.com/JordiBForgeFlow'><img src='https://github.com/JordiBForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiBForgeFlow'/></a> | Considers the warehouse calendars in manufacturing
 [mrp_workcenter_cost](mrp_workcenter_cost/) | 16.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> <a href='https://github.com/sebalix'><img src='https://github.com/sebalix.png' width='32' height='32' style='border-radius:50%;' alt='sebalix'/></a> | Controls how to compute the workcenter cost (effective vs theoretical)
