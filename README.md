@@ -40,7 +40,7 @@ addon | version | maintainers | summary
 [mrp_bom_select_product_variant](mrp_bom_select_product_variant/) | 16.0.1.0.0 |  | Favors Product variant selection for BOM creation.
 [mrp_bom_tag](mrp_bom_tag/) | 16.0.1.2.0 | <a href='https://github.com/quentinDupont'><img src='https://github.com/quentinDupont.png' width='32' height='32' style='border-radius:50%;' alt='quentinDupont'/></a> | Add tags on your BoM to find it easily
 [mrp_bom_tracking](mrp_bom_tracking/) | 16.0.1.0.1 |  | Logs any change to a BoM in the chatter
-[mrp_bom_version](mrp_bom_version/) | 16.0.1.0.0 |  | BoM versioning
+[mrp_bom_version](mrp_bom_version/) | 16.0.1.0.1 |  | BoM versioning
 [mrp_bom_weight](mrp_bom_weight/) | 16.0.1.0.0 |  | MRP BoM Weight
 [mrp_bom_widget_section_and_note_one2many](mrp_bom_widget_section_and_note_one2many/) | 16.0.1.0.0 | <a href='https://github.com/quentinDupont'><img src='https://github.com/quentinDupont.png' width='32' height='32' style='border-radius:50%;' alt='quentinDupont'/></a> | Add section and note in Bills of Materials
 [mrp_default_workorder_time](mrp_default_workorder_time/) | 16.0.1.0.0 | <a href='https://github.com/ChrisOForgeFlow'><img src='https://github.com/ChrisOForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ChrisOForgeFlow'/></a> | Adds an MRP default workorder time
@@ -69,7 +69,7 @@ addon | version | maintainers | summary
 [mrp_subcontracting_inhibit](mrp_subcontracting_inhibit/) | 16.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Inhibit subcontracting flow on demand
 [mrp_subcontracting_partner_management](mrp_subcontracting_partner_management/) | 16.0.1.1.0 |  | Subcontracting Partner Management
 [mrp_subcontracting_purchase_link](mrp_subcontracting_purchase_link/) | 16.0.1.0.0 |  | Link Purchase Order Line to Subcontract Productions
-[mrp_subcontracting_skip_no_negative](mrp_subcontracting_skip_no_negative/) | 16.0.1.0.3 |  | MRP Subcontracting Skip No Negative
+[mrp_subcontracting_skip_no_negative](mrp_subcontracting_skip_no_negative/) | 16.0.1.0.4 |  | MRP Subcontracting Skip No Negative
 [mrp_subcontracting_stock_owner_restriction](mrp_subcontracting_stock_owner_restriction/) | 16.0.1.0.0 |  | MRP Subcontracting Stock Owner Restriction
 [mrp_tag](mrp_tag/) | 16.0.1.1.0 |  | Allows to add multiple tags to Manufacturing Orders
 [mrp_unbuild_move_link](mrp_unbuild_move_link/) | 16.0.1.0.1 |  | Link the stock moves of manufacturing orders to the respective unbuild orders
