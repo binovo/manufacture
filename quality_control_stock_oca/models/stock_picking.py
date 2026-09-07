@@ -16,18 +16,27 @@ class StockPicking(models.Model):
         copy=False,
         string="Inspections",
         help="Inspections related to this picking.",
+        groups="quality_control_oca.group_quality_control_user",
     )
     created_inspections = fields.Integer(
-        compute="_compute_count_inspections", string="Created inspections"
+        compute="_compute_count_inspections",
+        string="Created inspections",
+        groups="quality_control_oca.group_quality_control_user",
     )
     done_inspections = fields.Integer(
-        compute="_compute_count_inspections", string="Done inspections"
+        compute="_compute_count_inspections",
+        string="Done inspections",
+        groups="quality_control_oca.group_quality_control_user",
     )
     passed_inspections = fields.Integer(
-        compute="_compute_count_inspections", string="Inspections OK"
+        compute="_compute_count_inspections",
+        string="Inspections OK",
+        groups="quality_control_oca.group_quality_control_user",
     )
     failed_inspections = fields.Integer(
-        compute="_compute_count_inspections", string="Inspections failed"
+        compute="_compute_count_inspections",
+        string="Inspections failed",
+        groups="quality_control_oca.group_quality_control_user",
     )
 
     inspection_required_message = fields.Html(
